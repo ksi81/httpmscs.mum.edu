@@ -1,0 +1,350 @@
+body {
+	background: url(images/background.jpg) repeat;
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana,sans-serif;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 900px;
+    padding-bottom: 10px;
+}
+
+.logo1 {
+    left: 10px;
+    top: 11px;
+    position: absolute;
+    z-index: 5;
+}
+
+.logo2 {
+    position: absolute;
+    top: 9px;
+    right: 20px;
+}
+
+
+header {
+    font-family: MyriadProSemibold,sans-serif;
+    color: #1a2853;
+    width: 800px;
+    min-height: 100px;
+    position: relative;
+    width: 800px;
+    background: url(images/masthead.png) no-repeat;
+    padding-right: 10px;
+    padding-left: 90px;
+    padding-top: 6px;
+}
+
+header h1 a {
+    color: #1a2853;
+    text-decoration: none;
+   font-weight: 500;
+    letter-spacing: -0.5px;
+}
+
+header h1 {
+	display: inline-block;
+	font-size: 24px ;
+    letter-spacing: -2px;
+    /*font-family: MyriadProSemibold,sans-serif;*/
+    /*color: #1a2853;*/
+    margin: 2px 0px 4px;
+    padding: 0px;
+    float: left;
+}
+
+header h1 span {
+    text-transform: uppercase;
+    letter-spacing: -2.2px;
+}
+
+header h2 {
+	display: inline-block;
+    font-size: 12px;
+    /*font: normal 12px MyriadProSemibold,sans-serif;*/
+    color: #7e8285;
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+main {
+        margin: 0px 0px 0px 0px;
+}
+
+.one {
+	margin: 13px;
+    float: left;
+    width: 480px;
+    background-color: #DFE6EC;
+    letter-spacing: 0px;
+}
+.content {
+    position: relative;
+    overflow: visible;
+    background-color: #fff;
+    padding-right: 10px;
+    padding-left: 10px;
+    overflow: hidden;
+}
+
+.one h1 {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Verdana,sans-serif;
+    color: #1a2853;
+    margin: -15px 0px 0px -3px;
+    padding: 20px;
+    display: block;
+}
+
+
+.one ul {
+    font-size: 13px;
+    /*font-family:  Verdana,Arial,Helvetica,sans-serif;*/
+    color: #1a2853;
+    margin: -8px -3px 10px;
+    padding: -10px 0px 10px;
+    line-height: 24px;
+}
+
+
+.two {
+	float: left;
+	width: 502px;
+	}
+.two h4 {
+    font-size: 13px;
+    font-weight: bold;
+    /*font-family: Verdana,Arial,Helvetica,sans-serif;*/
+    color: #1a2853;
+    margin: -5px 0 0 9px;
+    padding: 20px;
+    display: block;
+}
+.two ul {
+    font-size: 13px;
+     /*font-family: Verdana,Arial,Helvetica,sans-serif;*/
+    color: #1a2853;
+    margin: -14px 0 0 9px;
+    line-height: 24px;
+
+}
+.block {
+    background: grey;
+    float: right;
+    width: 300px;
+    min-height: 548px;
+    margin: 20px 30px 30px 30px;
+    -webkit-box-shadow: 0px 4px 20px 5px #C1BBBB;
+    box-shadow: 0px 4px 20px 5px #C1BBBB;
+    border: 5px solid #DFE6EC;
+    background-color: #fff;
+
+}
+
+
+
+.cover {
+	width: 900;
+	background-color: #DFE6EC;
+	min-height: 306px;
+        margin-top: 11px;
+}
+.photo img {
+overflow: hidden;
+    width: 310px;
+    margin: -5px -5px 0 -5px;
+}
+
+.call {
+    background-color: #CD1920;
+    margin: -3px -5px;
+    color: #fff;
+    padding: 6px 0;
+    border-top: 1px solid #fff;
+    font-weight: bold;
+    /*font: Verdana,Arial,Helvetica,sans-serif;*/
+}
+
+.call p {
+    text-transform: uppercase;
+    font-size: 16px;
+    /*color: #fff;*/
+    text-align: center;
+    /*font-weight: bold;*/
+    /*font: Verdana,Arial,Helvetica,sans-serif;*/
+    margin: 4px 0px 12px 0px;
+    padding: 0px;}
+
+   .call h4 {
+        font-size: 24px;
+   
+    /*color: #fff;*/
+    text-align: center;
+    /*font-weight: bold;*/
+    /*font: Verdana,Arial,Helvetica,sans-serif;*/
+    margin: -5px 0px 4px;
+  
+}
+.brochure {
+    margin: 12px auto;
+    padding:0;
+    width: 290px;
+    float: left;
+}
+.brochure p  {
+    color: #C03;
+    display: block;
+    padding-left: 8px;
+    font-size: 13px;
+    margin-top: 8px;
+    margin-left: 7px;
+}
+
+
+aside {
+    margin-bottom: 10px;
+}
+
+.companies {
+	display: inline-block;
+	overflow: hidden;
+    padding-left: 30px;
+    margin-top: 0;
+}
+.companies h4 {
+    font-size: 13px;
+    font-weight: bold;
+    color: #1a2853;
+    margin: 2px 0px 11px;
+}
+.companies img{
+	text-align: center;
+	display: block;
+}
+fieldset {
+	border: none;
+    margin-top: -10px;
+}
+
+.section-block {
+    margin-top: -11px;
+}
+input, select, option {
+    width: 243px;
+	border-radius: 2px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #cccccc
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+label {
+	color: red;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 15px;
+}
+
+button.button136 {
+    padding: 0;
+    border: 0;
+    font-family:  Lucida Sans Unicode;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: white;
+    color: #FFFFFF ;
+    text-align: center;
+   
+}
+
+::-webkit-input-placeholder {color:grey;
+text-align: left;
+padding-left: 10px;
+line-height: 40px;
+
+}
+
+
+button.button136 span.buttonDiv {
+    display: inline-block;
+        margin-top: 5px;
+}
+
+
+.buttonDiv {
+   
+    border: 0px solid #EDC545;
+    background-image: -webkit-linear-gradient(top, #0088cc, #0055cc);
+    padding: 6px 15px 6px;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: Verdana, sans-serif;
+    text-transform: uppercase;
+    border-radius: 5px;
+    width: 220px;
+}
+
+.quotes.highlight {
+    overflow: hidden;
+    /*padding: 21px 29px 0;*/
+    background-color: #DFE6EC;
+        min-height: 195px;
+    
+}
+.l11 {
+    font-size: 12px;
+    line-height: 24px;
+    color: #1a2853;
+    float: left;
+    width: 397px;
+    padding: 8px 5px 0 30px;
+}
+
+.l22 {
+    font-size: 12px;
+    line-height: 24px;
+    color: #1a2853;
+    float: left;
+       width: 392px;
+    padding: 7px 4px 0 25px;
+}
+
+
+/* .quotes p {
+    float: left;
+    width: 48%;
+    font-size: 12px;
+    line-height: 24px;
+    color: #1a2853;
+    /*margin: 0px 16px 33px 0px;*/
+/*}
+p .last {
+    margin-left: 10px;
+
+}*/
+
+.copyright {
+   text-transform: uppercase;
+    text-align: center;
+    font-size: 11px;
+  
+}
+p.copyright a {
+    color: #DEE5EB;
+    text-decoration: none;
+}
+
+p.sitemap {
+    font-size: 11px;
+    text-align: center;
+    margin: 0px;
+    padding: 0 0 20px;
+}
+p.sitemap a {
+    color: #DEE5EB;
+    text-decoration: none;
+}
